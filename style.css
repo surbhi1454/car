@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@1,600&display=swap');
+
+            body {
+  /* background: darkcyan; */
+  font-family: 'Press Start 2P', monospace;
+  font-smooth: never;
+  height: 98vh;
+}
+            *{ margin: 0; padding: 0; font-family: 'Josefin Sans', sans-serif;}
+            .hide{ display: none; }
+            .car{
+                width: 50px; height: 70px; 
+                background: red;
+                background-image: url('images/car9.jpg');
+                background-repeat: no-repeat;
+                background-size: 100% 100%;
+                position: absolute; 
+                bottom: 120px;
+            }
+            .enemyCar{
+                width: 50px; height: 70px; 
+                background: blue;
+                background-image: url('images/car11.jpg');
+                background-repeat: no-repeat;
+                background-size: 100% 100%;
+                position: absolute; 
+                bottom: 120px;
+            }
+            .lines{
+                width : 10px;
+                height: 80px;
+                background: white;
+                position: absolute;
+                margin-left: 195px;
+            }
+            .gameArea{
+                width: 400px;
+                height: 100vh;
+                background: #2a3031;
+                margin: auto;
+                position: relative;
+                overflow: hidden;
+                border-right: 7px dashed #c8d6e5;
+                border-left: 7px dashed #c8d6e5;
+            }
+            .score{
+                position: absolute;
+                top: 15px;
+                left: 40px;
+                background:#086e55;
+                width: 300px;
+                line-height: 70px;
+                text-align: center;
+                color: whitesmoke;
+                font-size: 1.5em;
+                box-shadow: 0 5px 5px #777;
+            }
+            .back{
+                position: absolute;
+                top: 15px;
+                right: 40px;
+                background: #40cef1;
+                width: 234px;
+                line-height: 59px;
+                text-align: center;
+                color: rgb(22, 21, 21);
+                font-size: xx-large;
+                box-shadow: 0 5px 5px #777;
+            }
+            .startScreen, .playGame{
+                position: absolute; background-color: #e62424;
+                left: 50%; top: 50%; width: 50%; line-height: 30px;
+                transform: translate(-50%, 50%);  color: white;
+                box-shadow: 0 5px 5px #777; z-index: 1; text-align: center;
+                border: 1px solid #ff6b6b; padding: 15px; margin: auto;
+                cursor: pointer; letter-spacing: 5; font-size: 20px; 
+                word-spacing: 3; text-transform: uppercase;
+                
+            }
+            .carGame{
+                width: 100%; height: 100vh;
+                background-image: url('images/car3.jpg');
+                background-repeat: no-repeat;
+                background-size: 100% 100%;
+            }
+            .mainPage{
+                width: 100%; height: 100vh;
+                background-image: url('images/car1.jpg');
+                background-repeat: no-repeat;
+                background-size: 100% 100%;
+            }
+            .coin{
+                width: 40px; height: 40px; 
+                background: rgb(207, 207, 12);
+                background-image: url('images/coin.png');
+                background-repeat: no-repeat;
+                background-size: 100% 100%;
+                position: absolute; 
+                bottom: 120px;
+                border-radius: 50%;
+            }
+            .dropdown-menu{
+                position: absolute;
+            }
+            .button {
+                width: 100%;
+                border: none;
+                padding: 13px 32px;
+                text-align: center;
+                text-decoration: none;
+                display: inline-block;
+                font-size: 16px;
+                margin: 4px 2px;
+                cursor: pointer;
+                background-color: #4CAF50;
+                display: block;
+                color: rgb(22, 21, 21);
+                font-size: 1.5em;
+                box-shadow: 0 5px 5px #777;
+              }
+              .button:not(:last-child) {
+                border-bottom: none; /* Prevent double borders */
+              }
+              .button:hover {
+                background-color: #3e8e41;
+              }
+              .nav-link{
+                font-size: 25px;
+                font-family: Georgia, 'Times New Roman', Times, serif;
+            }
